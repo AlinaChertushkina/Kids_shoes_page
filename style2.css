@@ -1,0 +1,393 @@
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.overall_style {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 1920px;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+/*Header style starts*/
+.header_style {
+    min-height: 50px;
+    width: 1920px;
+    height: 1080px;
+    flex-direction: column;
+    background-image: url(./images/header_bg.jpg);
+}
+
+.title_wrapper {
+    width: 865px;
+    height: 49px;
+    margin: 100px 733px 0px 322px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    color: white;
+}
+
+.subtitle_wrapper {
+    width: 815px;
+    height: 24px;
+    margin: 0px 783px 908px 322px;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ECECEC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 238px;
+    font-size: 10px;
+}
+
+.wildberries_button {
+    border-color: blueviolet;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.ozon_button {
+    border-color: blue;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.h_buttons {
+    margin-top: -800px;
+    margin-left: 332px;
+}
+
+/*Header style ends*/
+
+/*Main product cards style starts*/
+.main_style {
+    width: 1920px;
+    height: 1500px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(./images/oval.png);
+}
+
+.main:before {
+    position: absolute;
+    width: 1652.44px;
+    height: 1650.26px;
+    left: -30px;
+    top: -56.37px;
+    transform: rotate(-9.85deg);
+}
+
+.block_1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards_text {
+    text-align: center;
+}
+
+.caption_title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.caption {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*Main product cards style ends*/
+
+/*Main slider style starts*/
+
+.slider {
+    width: 1920px;
+    height: 639.67px;
+    margin-top: 180px;
+}
+
+/*Main slider style ends*/
+
+/*Main table style starts*/
+
+.table_wrapper {
+    width: 1920px;
+    height: 1014px;
+}
+
+.inside_wrapper {
+    width: 1401.21px;
+    height: 813.2px;
+    margin: 66.14px 196.79px 82px 322px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table {
+    width: 735px;
+    height: 710px;
+}
+
+.table_caption {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.column_1 {
+    width: 245px;
+    height: 74.64px;
+    background-color: #e6a37fa8;
+    font-size: 24px;
+    color: #726E5F;
+}
+
+.column_2 {
+    width: 245px;
+    height: 74.64px;
+    background-color: rgba(198, 148, 121, 0.507);
+    font-size: 24px;
+    color: #726E5F;
+}
+
+.column_3 {
+    width: 245px;
+    height: 74.64px;
+    background-color: #e5d2ca8f;
+    font-size: 24px;
+    color: #726E5F;
+}
+
+.row_1 {
+    background-color: #C89479;
+}
+
+.row_2 {
+    background-color: rgba(200, 148, 121, 0.6);
+}
+
+.row_3 {
+    background-color: #E5D2CA;
+}
+
+.row_1_style {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.row_2_style {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.row_3_style {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.side_section {
+    width: 735px;
+    height: 710px;
+    background-image: url(./images/drop.png);
+}
+
+.side_section::before {
+    width: 542.4px;
+    height: 546.45px;
+    transform: rotate(57.42deg);
+}
+
+.side_text {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+.icon_wa {
+    width: 113px;
+    height: 113px;
+    padding: 48px;
+    margin-left: 158px;
+    filter: drop-shadow(1px 4px 20px rgba(0, 0, 0, 0.4));
+}
+
+.icon_vk {
+    width: 113px;
+    height: 113px;
+    filter: drop-shadow(1px 4px 20px rgba(0, 0, 0, 0.4));
+}
+
+/*Main table style ends*/
+
+/*Main advantages style starts*/
+
+.advantages {
+    width: 1920px;
+    height: 1014px;
+}
+
+
+.inner_advantages {
+    width: 1271px;
+    height: 1075.03px;
+    margin-left: 336px;
+    margin-right: 313px;
+    background-image: url(./images/bigger_drop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.inner_advantages::before {
+    width: 930.92px;
+    height: 937.88px;
+    transform: rotate(-9.23deg);
+    margin-left: 500px;
+}
+
+.advantage_1,
+.advantage_2,
+.advantage_3,
+.advantage_4 {
+    width: 303px;
+    height: 579px;
+    margin-top: 200px;
+    margin-bottom: 47px;
+    padding: 10px;
+}
+
+.adv_picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    border: 1px solid #C89479;
+}
+
+.advantages_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: -100px;
+    align-content: flex-start;
+    margin-left: -900px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.4));
+}
+
+.advantages_text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px;
+    height: 168px;
+    margin-top: -120px;
+    margin-left: -550px;
+}
+
+/*Main advantages style ends*/
+
+/*Main safe your time style starts*/
+
+.safe_your_time {
+    width: 1920px;
+    height: 945px;
+}
+
+.inner_safe {
+    width: 1273px;
+    height: 945px;
+    margin-left: 321px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text_part {
+    width: 630px;
+    height: 945px;
+}
+
+.kids_picture {
+    width: 630px;
+    height: 945px;
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+    float: right;
+}
+
+.safe_title {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 78px;
+}
+
+.safe_text {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/*Main safe your time style ends*/
+
+/*Main photo style starts*/
+.photo {
+    width: 1920px;
+    height: 678px;
+}
+
+/*Main photo style ends*/
+
+/*Footer style starts*/
+
+.footer {
+    border: 2px solid red;
+    height: 283px;
+    width: 1920px;
+    bottom: 0;
+    margin-top: -6697px;
+    background-color: #E0E0E0;
+    background-image: url(./images/logo.svg);
+}
+}
+
+/*Footer style ends*/
